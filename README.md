@@ -12,4 +12,13 @@ Developed with Godot 4.4
 - To change the server address, Open settings (`Se.` button on the bottom right), type in a new network address and click apply.
 - Click on the Se. button again to close settings.
 
+### Character plate background colors
+| Color | Description |
+|-------|------------|
+| Black/None | Character is okay |
+| Red   | Not earning exp |
+| Dark green | Current skill is maxed out |
+| Light blue | Character is fully rested |
+| Orange | Needs to be sailed to another island |
+
 Contributions to make this less jank and more user friendly are welcome
