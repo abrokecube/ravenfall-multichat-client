@@ -1,6 +1,7 @@
 # ravenfall-multichat-client
 Frontend for [ravenfall-multichat-server](https://github.com/abrokecube/ravenfall-multichat-server)
-<img width="850" height="480" alt="20260130055157_ravenfall-chatting console" src="https://github.com/user-attachments/assets/39086ed6-29e9-429f-a29a-77919c66af1a" />
+
+<img width="852" height="519" alt="20260130062311_ravenfall-chatting console" src="https://github.com/user-attachments/assets/8cf06d48-7d70-4b50-a664-7db5ba406a34" />
 
 Developed with Godot 4.4  
 
