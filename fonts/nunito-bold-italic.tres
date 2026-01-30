@@ -1,0 +1,7 @@
+[gd_resource type="FontVariation" load_steps=2 format=3 uid="uid://c4aax30ojamwq"]
+
+[ext_resource type="FontFile" uid="uid://n7xatstaqdfh" path="res://fonts/Nunito-BoldItalic.ttf" id="1_000j8"]
+
+[resource]
+base_font = ExtResource("1_000j8")
+variation_embolden = 0.7

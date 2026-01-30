@@ -1,0 +1,86 @@
+[gd_resource type="Theme" load_steps=15 format=3 uid="uid://d3fbow71iaib"]
+
+[ext_resource type="FontVariation" uid="uid://c6ducqm4xch5u" path="res://fonts/nunito-bold.tres" id="1_cjfk0"]
+[ext_resource type="FontVariation" uid="uid://dcfer7pgf27a2" path="res://fonts/nunito-italic.tres" id="2_cjfk0"]
+[ext_resource type="FontVariation" uid="uid://c4aax30ojamwq" path="res://fonts/nunito-bold-italic.tres" id="2_vj6dk"]
+[ext_resource type="FontVariation" uid="uid://da01dq10rgfen" path="res://fonts/nunito-regular.tres" id="4_110ce"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_vj6dk"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1rmny"]
+content_margin_left = 4.0
+content_margin_top = 2.0
+content_margin_right = 4.0
+content_margin_bottom = 2.0
+bg_color = Color(0.0823529, 0.0862745, 0.105882, 1)
+border_width_bottom = 2
+border_color = Color(0.0282626, 0.0302463, 0.0413496, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_cjfk0"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_110ce"]
+bg_color = Color(0, 0, 0, 0.482353)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_05tig"]
+bg_color = Color(0.50451, 0.50451, 0.50451, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_110ce"]
+
+[sub_resource type="FontVariation" id="FontVariation_110ce"]
+base_font = ExtResource("4_110ce")
+variation_embolden = 0.4
+spacing_top = -3
+spacing_bottom = -3
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mihib"]
+content_margin_left = 5.0
+content_margin_top = 8.0
+content_margin_right = 5.0
+content_margin_bottom = 8.0
+bg_color = Color(0, 0, 0, 0.9)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cjfk0"]
+bg_color = Color(0.87, 0.917667, 1, 0.360784)
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vj6dk"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+draw_center = false
+border_width_left = 2
+border_width_right = 2
+border_color = Color(0.137255, 0.137255, 0.137255, 0)
+
+[resource]
+default_font = ExtResource("4_110ce")
+default_font_size = 11
+Button/styles/focus = SubResource("StyleBoxEmpty_vj6dk")
+Button/styles/normal = SubResource("StyleBoxFlat_1rmny")
+Label/fonts/font = ExtResource("4_110ce")
+LineEdit/styles/focus = SubResource("StyleBoxEmpty_cjfk0")
+ProgressBar/styles/background = SubResource("StyleBoxFlat_110ce")
+ProgressBar/styles/fill = SubResource("StyleBoxFlat_05tig")
+RichTextLabel/fonts/bold_font = ExtResource("1_cjfk0")
+RichTextLabel/fonts/bold_italics_font = ExtResource("2_vj6dk")
+RichTextLabel/fonts/italics_font = ExtResource("2_cjfk0")
+RichTextLabel/fonts/normal_font = ExtResource("4_110ce")
+TextEdit/styles/focus = SubResource("StyleBoxEmpty_110ce")
+TooltipLabel/font_sizes/font_size = 11
+TooltipLabel/fonts/font = SubResource("FontVariation_110ce")
+TooltipPanel/styles/panel = SubResource("StyleBoxFlat_mihib")
+VScrollBar/styles/grabber = SubResource("StyleBoxFlat_cjfk0")
+VScrollBar/styles/scroll = SubResource("StyleBoxFlat_vj6dk")
+VScrollBar/styles/scroll_focus = SubResource("StyleBoxFlat_vj6dk")
