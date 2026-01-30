@@ -14,12 +14,13 @@ Developed with Godot 4.4
 - Click on the Se. button again to close settings.
 
 ### Character plate background colors
+In order of least to most priority -- if a character 'needs saliing' and is 'fully rested', then the 'fully rested' color will appear, overriding 'needs sailing'
 | Color | Description |
 |-------|------------|
 | Black/None | Character is okay |
 | Red   | Not earning exp |
 | Dark green | Current skill is maxed out |
-| Light blue | Character is fully rested |
 | Orange | Needs to be sailed to another island |
+| Light blue | Character is fully rested |
 
 Contributions to make this less jank and more user friendly are welcome
